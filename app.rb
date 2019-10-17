@@ -25,6 +25,10 @@ player2 = gets.chomp
 symbol2 = "o"
 player2 = Player.new(player2, symbol2)
 
+@players = Array.new
+@players << player1
+@players << player2
 
-#puts "#{player1.value}"
-#puts "#{player2.value}"
+puts "#{players}"
+
+puts ""
